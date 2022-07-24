@@ -12,8 +12,8 @@ const Navigation = () =>{
                  <Clothlogo  className= 'logo' /> 
             </Link>
           <div className="nav-links-container">
-            <Link className="nav-link" to = "/Shop"> Shop </Link>
-            <Link className="nav-link" to = "/sign-in"> Sign In </Link>
+            <Link className="nav-link" to = "/Shop"> SHOP </Link>
+            <Link className="nav-link" to = "/auth"> SIGN IN </Link>
           </div> 
         </div>
 

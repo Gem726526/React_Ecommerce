@@ -2,21 +2,21 @@ import { Routes, Route} from "react-router-dom";
 import Home  from "./routes/home/home.component";
 
 import Navigation from "./routes/navigation/navigation.component";
-import SignIn from "./routes/sign-in/sign-in.component";
+import Authentication from "./routes/authentication/authentication";
 
 const Shop = ()=> {
   return(
-  <h1> I ma the Shop </h1>
+  <h1> I am the Shop </h1>
 )}
   
 
-const App = ()=> {
+const App = ()=> { 
 return(
   <Routes>
     <Route path="/" element = {<Navigation />} >
       <Route index element ={<Home/>}  />
       <Route path="Shop" element ={<Shop/>}  />
-      <Route path="sign-in" element ={<SignIn />}  />
+      <Route path="auth" element ={<Authentication/>}  />
     </Route>
   </Routes>
 
