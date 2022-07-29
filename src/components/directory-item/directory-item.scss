@@ -1,4 +1,4 @@
-.category-container {
+.directory-item-container {
     min-width: 30%;
   
     height: 240px;
@@ -19,7 +19,7 @@
         transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
       }
   
-      & .category-body-container {
+      & .directory-item-container {
         opacity: 0.9;
       }
     }
@@ -44,7 +44,7 @@
       z-index: 0;
     }
   
-    .category-body-container {
+    .directory-item-body-container {
       height: 90px;
       padding: 0 25px;
       display: flex;
@@ -66,6 +66,7 @@
       p {
         font-weight: lighter;
         font-size: 16px;
+        align-items: center;
       }
     }
   }

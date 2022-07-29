@@ -10,9 +10,9 @@ import Shop  from "./routes/shop/shop.component";
 const App = ()=> { 
 return(
   <Routes>
-    <Route path="/" element = {<Navigation />} >
+    <Route path="/" element = {<Navigation />} >  
       <Route index element ={<Home/>}  />
-      <Route path="Shop" element ={<Shop/>}  />
+      <Route path="Shop/*" element ={<Shop/>}  />
       <Route path="auth" element ={<Authentication/>}  />
       <Route path="checkout" element ={<Checkout/>}  />
 
