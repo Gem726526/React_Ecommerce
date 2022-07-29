@@ -1,2 +1,2 @@
-A react Ecommerce app using functionaly like SHop, Cart, And authenciation using firbase.
+A react Ecommerce app using functionaly like Shop, Cart, and Authentication using firbase.
 
